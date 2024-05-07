@@ -1,0 +1,41 @@
+ADMIN USERNAME/PW: admin/admin123
+DEFAULT STUDENTS/TEACHERS USERNAME: st1, st2, st3, st4, st5, tr1, tr2, PASSWORD: 12345
+MODULES USED: sqlite3, pandas, tkinter, hashlib
+
+FOR CONSISTENCY:
+- Use camel casing on functions (e.g: toAdd(), functionExample())
+- Use underscore as space for variables(e.g: variable_1, variable_2)
+
+----- TODO -----
+USER AUTH (COMPLETE)
+- Authenticate username and password (done)
+- Hash passwords (done)
+- Detect if user that logged in is a student, teacher or admin (done)
+
+ADMIN (COMPLETE)
+- Create admin menu (done)
+- Create admin ability to create users (done)
+- Create admin ability to delete users (done)
+
+TEACHER (COMPLETE)
+- Create teacher menu (done)
+- Create ability to upload student grades using excel file (done)
+
+STUDENT (COMPLETE)
+- Create student menu (done)
+- Create display where students can view their grades (done)
+- Create database filter to only display grades based on the student's ID(username in the database) (done)
+
+DATABASE (COMPLETE)
+- Learn how to match studentID from records.db (student grades) with username from users.db (users) to be able to filter grades based on student ID("username" in the database) (done)
+
+EXTRAS
+- Improve menus
+- Improve login layout
+- Improve upload file layout for teacher
+- Improve admin layout
+
+CURRENT BUGS
+- Typing wrong password for admin shows error in the console
+- Pop up windows aren't prioritized to pop up in front of other programs
+-
